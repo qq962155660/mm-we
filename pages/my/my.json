@@ -1,0 +1,8 @@
+{
+  "usingComponents": {
+    "i-spin": "../../weui/spin/index",
+    "i-cell-group": "../../weui/cell-group/index",
+    "i-cell": "../../weui/cell/cell",
+    "i-icon": "../../weui/icon/icon"
+  }
+}

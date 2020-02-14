@@ -1,0 +1,11 @@
+/* pages/add_data/add_data.wxss */
+
+.page{
+ background-color: #EDEDED;
+}
+.page__hd{
+  padding: 40px;
+}
+.page__bd{
+  padding-bottom: 40px;
+}

@@ -1,0 +1,37 @@
+<!--pages/about/index.wxml-->
+<view>
+  <view class="caption-wrap">
+ 
+  
+        <view slot="content">
+            <view class="about">
+            <view class='list'>技术标签</view>
+            <view class='ul'>• JAVA</view>
+            <view class='ul'>• 大数据</view>
+            <view class='ul'>• MYSQL</view>
+          </view>
+          <view slot="content">
+          <view class="about">
+            <view class='ul'>
+              QQ：
+              <view bindtap="copyDataTap" class="zan-text-underline zan-c-blue" data-index="{{QQ}}">{{QQ}}</view>
+            </view>
+            <view class='ul'>
+              邮箱：
+              <view bindtap="copyDataTap" class="zan-text-underline zan-c-blue" data-index="{{email}}">{{email}}</view>
+            </view>
+            <view class='ul'>
+              主页：
+              <view bindtap="copyDataTap" class="zan-text-underline zan-c-blue" data-index="{{web}}">{{web}}</view>
+            </view>
+            <view class='ul'>
+              GitHub：
+              <view bindtap="copyDataTap" class="zan-text-underline zan-c-blue" data-index="{{github}}">{{github}}</view>
+            </view>
+          </view>
+        </view>
+        </view>
+     
+ 
+  </view>
+</view>

@@ -1,0 +1,6 @@
+{
+  "usingComponents": {
+    "i-collapse": "../../weui/collapse/index",
+    "i-collapse-item": "../../weui/collapse-item/index"
+  }
+}
